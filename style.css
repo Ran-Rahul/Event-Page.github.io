@@ -79,6 +79,7 @@ footer {
 }
 
 .img {
+    border-radius: 12px;
     background-image: url("bg2.jpg");
 }
 
@@ -122,6 +123,8 @@ footer {
     background-color: rgb(41, 44, 46);
     color: rgb(151, 171, 171);
     border: 4px solid seagreen;
+    font-size: small;
+
 }
 
 .event-description p {
@@ -141,14 +144,13 @@ footer {
 .event-highlights img {
     border: 2px solid green;
     transform: scale(.9);
+    border-radius: 5px;
 }
 
 .event-highlights {
     display: flex;
     padding: 10px;
     background-color: rgba(65, 243, 6, 0.7);
-    /* background-image: url(bg3b.jpg);
-    filter: blur(.3px); */
     justify-content: space-evenly;
 }
 
@@ -171,10 +173,6 @@ footer {
     text-shadow: 2px 2px 5px rgb(14, 169, 207);
 }
 
-/* .event-details :hover {
-    box-shadow: 10px 15px 5px red;
-} */
-
 .event-details p {
     color: rgb(136, 164, 164);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -186,10 +184,7 @@ footer {
     color: rgb(8, 206, 241);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 2px 5px rgb(156, 238, 15);
-    /* text-decoration: underline rgba(224, 117, 227, 0.3); */
 }
-
-
 
 .event-schedule {
     display: flex;
@@ -214,26 +209,19 @@ footer {
     color: rgb(136, 164, 164);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 2px 5px rgb(20, 24, 21);
-
 }
 
 .event-schedule h5 {
     color: rgb(68, 73, 110);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 2px 5px rgba(9, 9, 6, 8);
-    /* text-decoration: underline rgba(230, 111, 224, 0.9); */
 }
 
 .event-schedule h2 {
     color: rgb(8, 29, 188);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 2px 2px 5px rgb(10, 239, 21);
-    /* text-decoration: underline rgba(230, 111, 224, 0.3); */
 }
-
-
-
-
 
 .ticket-information p {
     color: rgb(136, 164, 164);
@@ -249,7 +237,6 @@ footer {
     text-shadow: 2px 2px 5px rgb(151, 154, 155);
     padding-left: 30px;
 }
-
 
 .ticket-information btn1 {
     color: rgb(68, 73, 110);
@@ -274,9 +261,9 @@ footer {
 .btn1:hover {
     color: #15de18;
     background-color: rgb(0, 105, 0);
-    color: rgb(0, 255, 100, 100);
+    color: rgb(0, 255, 100, 10);
+    border-radius: 10px;
 }
-
 
 .main {
     background-color: rgb(20, 15, 26, 1);
@@ -290,6 +277,7 @@ footer {
 
 .item1 {
     padding-top: 15px;
+    margin: 30px;
     /* flex-shrink: 1; */
 }
 
@@ -297,6 +285,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 25px;
+    margin: 20px;
 }
 
 .item3 {
@@ -305,12 +294,7 @@ footer {
     margin-top: 30px;
     background-color: #644747;
     border-radius: 80px 400px 400px 80px;
-
 }
-
-/* .item3 :hover {
-    box-shadow: 10px 10px 5px rgb(235, 233, 232);
-} */
 
 .item4 {
     padding-left: 100px;
@@ -331,7 +315,39 @@ footer {
     margin-top: -1700px;
     background-color: rgb(0, 0, 0, .7);
     border-radius: 45px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     align-items: center;
     align-self: flex-end;
+}
+
+.event-description p:hover {
+    box-shadow: 5px 10px 25px 10px rebeccapurple;
+    border-radius: 5px 5px 120px 120px;
+    margin-top: 2px;
+}
+
+.shad2:hover {
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 5px 10px 25px 10px rebeccapurple;
+}
+
+.shad3:hover {
+
+    box-shadow: 5px 10px 25px 10px rebeccapurple;
+    /* padding-left: 20px solid black; */
+
+}
+
+.shad4:hover {
+    box-shadow: 5px 10px 25px 10px rebeccapurple;
+}
+
+.shad5:hover {
+    box-shadow: 5px 10px 15px 10px rebeccapurple inset;
+    padding: 1px;
+}
+
+.foot:hover {
+    background-color: black;
 }
